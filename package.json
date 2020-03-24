@@ -1,0 +1,21 @@
+{
+  "name": "joyofquiltingart",
+  "version": "1.0.0",
+  "description": "A website to showcase and sell quilt art made by Jamie Rowen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laylar/joyofquiltingart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laylar/joyofquiltingart/issues"
+  },
+  "homepage": "https://github.com/laylar/joyofquiltingart#readme"
+}
