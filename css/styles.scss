@@ -1,6 +1,26 @@
 $gray: #9e9a9a;
+$blog-text: black;
 
 h1, h2, h3 {
     color: $gray;
     font-family: "Aguafina Script", sans-serif;
+}
+
+.centered-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    max-width: 400px;
+}
+
+.centered-text {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.blog-text {
+    font-family: Sans-serif;
+    color: $blog-text;
 }
