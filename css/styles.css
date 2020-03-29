@@ -14,6 +14,10 @@ h1, h2, h3 {
   vertical-align: middle;
   display: inline-block; }
 
+.blog-title {
+  font-family: Sans-serif;
+  color: #141414; }
+
 .blog-text {
   font-family: Sans-serif;
-  color: black; }
+  color: #141414; }
