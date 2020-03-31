@@ -8,6 +8,13 @@ h1, h2, h3 {
     font-family: "Aguafina Script", sans-serif;
 }
 
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
 .centered-img {
     display: block;
     margin-left: auto;
@@ -34,4 +41,9 @@ h1, h2, h3 {
 
 .black-text {
     color: $black-text;
+}
+
+div {
+    border-color: black;
+    border-style: solid;
 }
