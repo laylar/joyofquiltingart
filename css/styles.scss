@@ -1,7 +1,7 @@
 $gray: #9e9a9a;
 $blog-title: black;
 $blog-text: rgb(20, 20, 20);
-
+$black-text: black;
 
 h1, h2, h3 {
     color: $gray;
@@ -30,4 +30,8 @@ h1, h2, h3 {
 .blog-text {
     font-family: Sans-serif;
     color: $blog-text;
+}
+
+.black-text {
+    color: $black-text;
 }
