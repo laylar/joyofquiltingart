@@ -17,8 +17,7 @@ h1, h2, h3 {
 
 .centered-text {
   text-align: center;
-  vertical-align: middle;
-  display: inline-block; }
+  vertical-align: middle; }
 
 .blog-title {
   font-family: Sans-serif;
