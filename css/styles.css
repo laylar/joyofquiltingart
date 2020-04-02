@@ -24,6 +24,9 @@ header .header-title {
   font-family: "Aguafina Script", sans-serif;
   color: #9e9a9a; }
 
+footer {
+  padding-top: 50px; }
+
 .centered-text {
   text-align: center;
   vertical-align: middle; }
@@ -31,20 +34,24 @@ header .header-title {
 .black-text {
   color: black; }
 
-.blog .blog-title {
+.blog-title {
   font-family: Sans-serif;
-  color: #141414; }
+  color: black;
+  padding-top: 100px; }
 
-.blog .blog-text {
+.blog-text {
   font-family: Sans-serif;
-  color: #141414; }
+  color: black; }
 
-.blog .blog-img {
+.blog-img {
   display: block;
   width: 45%;
   max-width: 200px;
   padding: 5%; }
 
+/*
 div {
-  border-color: black;
-  border-style: solid; }
+    border-color: black;
+    border-style: solid;
+}
+*/

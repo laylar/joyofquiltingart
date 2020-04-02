@@ -1,6 +1,6 @@
 $gray: #9e9a9a;
 $blog-title: black;
-$blog-text: rgb(20, 20, 20);
+$blog-text: rgb(0, 0, 0);
 $black-text: black;
 
 h1, h2, h3 {
@@ -39,7 +39,9 @@ header {
         color: $gray;
     }
 }
-
+footer {
+    padding-top: 50px;
+}
 
 .centered-text {
     text-align: center;
@@ -51,26 +53,28 @@ header {
     color: $black-text;
 }
 
-.blog {
-    .blog-title {
+
+.blog-title {
     font-family: Sans-serif;
     color: $blog-text;
-    }
-    .blog-text {
+    padding-top: 100px;
+}
+
+.blog-text {
     font-family: Sans-serif;
     color: $blog-text;
-    }
-    .blog-img {
-        display: block;
-        width: 45%;
-        max-width: 200px;
-        padding: 5%;
-    }
+}
+.blog-img {
+    display: block;
+    width: 45%;
+    max-width: 200px;
+    padding: 5%;
 }
 
 
-
+/*
 div {
     border-color: black;
     border-style: solid;
 }
+*/
