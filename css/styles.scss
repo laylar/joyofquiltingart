@@ -4,8 +4,8 @@ $blog-text: rgb(20, 20, 20);
 $black-text: black;
 
 h1, h2, h3 {
-    color: $gray;
-    font-family: "Aguafina Script", sans-serif;
+    
+    
 }
 
 img {
@@ -35,6 +35,8 @@ header {
     .header-title {
         margin: auto;
         text-align: right;
+        font-family: "Aguafina Script", sans-serif;
+        color: $gray;
     }
 }
 
@@ -58,12 +60,17 @@ header {
     font-family: Sans-serif;
     color: $blog-text;
     }
+    .blog-img {
+        display: block;
+        width: 45%;
+        max-width: 200px;
+        padding: 5%;
+    }
 }
 
 
-/*
+
 div {
     border-color: black;
     border-style: solid;
 }
-*/
