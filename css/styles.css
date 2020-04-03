@@ -54,6 +54,10 @@ footer {
 }
 .jumbotron {
   margin: 0;
+}
+.fa {
+  color: grey !important;
+}
 /*
 div {
     border-color: black;
