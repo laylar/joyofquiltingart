@@ -48,17 +48,16 @@ footer {
   width: 45%;
   max-width: 200px;
   padding: 5%; }
- 
+
 .navbar {
-    background-color: rgb(231, 208, 235);
-}
-}
+  background-color: #e7d0eb; }
+
 .jumbotron {
-  margin: 0;
-}
+  margin: 0; }
+
 .fa {
-  color: grey !important;
-}
+  color: grey !important; }
+
 /*
 div {
     border-color: black;
