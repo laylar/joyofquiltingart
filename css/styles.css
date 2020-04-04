@@ -27,12 +27,12 @@ header .header-title {
   font-family: "Aguafina Script", sans-serif;
   color: #b8b8b8; }
 
+form {
+  padding-top: 100px;
+  padding-bottom: 400px; }
+
 footer {
-  padding-top: 50px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%; }
+  padding-top: 50px; }
 
 .centered-text {
   text-align: center;
