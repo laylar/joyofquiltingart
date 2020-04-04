@@ -1,4 +1,4 @@
-$gray: #9e9a9a;
+$gray: #b8b8b8;
 $blog-title: black;
 $blog-text: rgb(0, 0, 0);
 $black-text: black;
@@ -72,12 +72,14 @@ footer {
 }
 
 .navbar {
-    background-color: rgb(231, 208, 235);
+    font-weight: bold;
+    background-color: $gray;
+    opacity: .5;
 }
 
 .jumbotron {
   margin: 0;
-  background-color: white;
+  background-image: url(../img/bigbluequilt.jpg);
 }
 .fa {
   color: grey !important;
