@@ -1,3 +1,4 @@
+/*changed the a class to gray because it looks nicer in the footer with the gray fontawesome icons*/
 a {
   color: #b8b8b8; }
 
@@ -15,18 +16,14 @@ img {
   margin-right: auto;
   padding: 5%; }
 
-header .header-img {
-  display: block;
-  width: 45%;
-  max-width: 200px;
-  padding: 5%; }
-
-header .header-title {
+.header-title {
   margin: auto;
   text-align: right;
   font-family: "Aguafina Script", sans-serif;
   color: #b8b8b8; }
 
+/* This is temporary while the form has little enough content that the footer will creep.
+So we'll keep it until we fix the footer or add enough content.*/
 form {
   padding-top: 100px;
   padding-bottom: 400px; }
@@ -61,14 +58,18 @@ footer {
   background-color: #b8b8b8;
   opacity: .5; }
 
+/* We ultimately decided that the bigbluequilt.jpg at the top of the page looks the best. For now. =) */
 .jumbotron {
   margin: 0;
   background-image: url(../img/bigbluequilt.jpg); }
 
+/* Chris used this to change all the social media icons in the footer to gray. Lookin' good! */
 .fa {
   color: grey !important; }
 
-/*
+/* This is specifically for diagnostics when a div acts up and doesn't display the way we expect it to.
+Make sure it remains commented out in the push to the repo.
+
 div {
     border-color: black;
     border-style: solid;

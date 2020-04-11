@@ -3,6 +3,7 @@ $blog-title: black;
 $blog-text: rgb(0, 0, 0);
 $black-text: black;
 
+/*changed the a class to gray because it looks nicer in the footer with the gray fontawesome icons*/
 a {
     color: $gray;
 }
@@ -46,13 +47,11 @@ footer {
 .centered-text {
     text-align: center;
     vertical-align: middle;
-
 }
 
 .black-text {
     color: $black-text;
 }
-
 
 .blog-title {
     font-family: Sans-serif;
