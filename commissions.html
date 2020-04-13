@@ -76,54 +76,28 @@
                 </div>
             </div>
         </div>
+        <!--The commission request button-->
         <div class="row centered-text">
-                <button type="submit" id="request-button" class="center btn btn-info">Request</button>
-        </div>       
+                <button type="submit" id="requestButton" class="center btn btn-info">Request</button>
+        </div>      
     </div>
-    
   </form>
-  <!-- All of the following div is an attempt at modal stuff... but it's not working at all yet.-->
-  <div id="requestModal" class="modal fade" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title">Request More Information</h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+  <!--Commission request modal as configured from https://www.w3schools.com/howto/howto_css_modals.asp-->
+        <!--It's still not working right-- it pops up briefly before disappearing. Not sure why.-->
+        <div id="requestModal" class="modal">
+            <!--modal content-->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Request Commissions</h2>
+                    <div class="modal-body">
+                        <p>Commission requests coming soon.</p>
+                        <p></p>
+                    </div>
+                    <div class="modal-footer">
+                      <h3>For now, please email animusfuro@gmail.com for more information.</h3>
+                    </div>
             </div>
-            <div class="modal-body">
-                <div class="container-fluid">
-                    <form>
-                        <!-- This is where the modal contents would go... copied from our nucamp site login modal.
-                        <div class="form-row">
-                            <div class="form-group col-12">
-                                <label class="sr-only" for="loginEmail">Email address</label>
-                                <input type="email" class="form-control form-control-sm" id="loginEmail"
-                                    placeholder="Enter email">
-                            </div>
-                            <div class="form-group col-12">
-                                <label class="sr-only" for="loginPassword">Password</label>
-                                <input type="password" class="form-control form-control-sm" id="loginPassword"
-                                    placeholder="Password">
-                            </div>
-                            <div class="col">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox">
-                                    <label class="form-check-label"> Remember me</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <button type="button" class="btn btn-secondary btn-sm ml-auto"
-                                data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary btn-sm ml-1"> Sign In </button>
-                        </div>
-                    -->
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+        </div> 
     <!-- Footer - her contact info as well as links to the pages again. -->
     <footer>
         <div class="container">
