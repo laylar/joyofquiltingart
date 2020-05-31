@@ -15,3 +15,5 @@ npm install font-awesome@4.7.0
 npm install --save-dev node-sass@4.12.0
 
 currently, to update the scss file, run: npm run scss
+
+UPDATE: npm install should install all necessary dependencies.
